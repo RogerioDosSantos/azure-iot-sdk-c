@@ -22,12 +22,12 @@
 #include "certs.h"
 #endif // SET_TRUSTED_CERT_IN_SAMPLES
 
-static const char* hubName = "[IoT Hub Name]";
-static const char* hubSuffix = "[IoT Hub Suffix]";
-static const char* deviceId1 = "[device id 1]";
-static const char* deviceId2 = "[device id 2]";
-static const char* deviceKey1 = "[device key 1]";
-static const char* deviceKey2 = "[device key 2]";
+static const char* hubName = "iotedgeexample";
+static const char* hubSuffix = "azure-devices.net";
+static const char* deviceId1 = "iot_edge_device_example";
+static const char* deviceId2 = "";
+static const char* deviceKey1 = "5CiOHu2MJWVxHgPcue6dHaz91FF3410tnvzpUmjX4s4=";
+static const char* deviceKey2 = "drTuxzMdQNA9tsw0wQmfCLKKaLaCxfMH0kFqh2yzbmc=";
 
 static bool g_continueRunning;
 static char msgText[1024];
